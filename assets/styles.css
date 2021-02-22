@@ -142,6 +142,9 @@ h1 {
   #home-message {
     font-size: 4.25em;
   }
+  #home-content {
+    padding: .5rem;
+  }
 }
 
 /* footing styles */
