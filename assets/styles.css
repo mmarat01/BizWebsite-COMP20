@@ -7,7 +7,7 @@ body {
   background-color: #ffc967;
   font-weight: 400;
   color: #000;
-  line-height: 1.4;
+  line-height: 1.5;
   min-width: 0;
   min-height: 100vh;
   display: grid;
@@ -21,8 +21,32 @@ img {
 
 h1 {
   font-weight: 700;
+  line-height: 1.7;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 4rem 0rem 4rem;
+}
+
+.section-paragraph{
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+@media only screen and (max-width: 600px){
+  .container {
+    padding: 2rem 2rem 0rem 2rem;
+  }
+}
+.container a{
+  color: #000
+}
+
+.section-title{
+  font-weight: 800;
+  font-size: 2.5em;
+}
 /* 
   heading area styles 
   responsive navbar built with help of: https://www.youtube.com/watch?v=At4B7A4GOPg&t=261s
@@ -150,5 +174,10 @@ h1 {
 /* footing styles */
 #footing {
   grid-row: 3;
+  font-size: .8em;
   background-color: #ffc967;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
 }
