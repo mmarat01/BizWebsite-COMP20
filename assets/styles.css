@@ -127,6 +127,21 @@ h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#home-message{
+  font-size: 5em;
+}
+
+@media only screen and (max-width: 845px){
+  #home-message {
+    font-size: 4.25em;
+  }
 }
 
 /* footing styles */
